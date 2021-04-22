@@ -81,7 +81,7 @@
 
 
 
-  <link rel="alternate" href="/atom.xml" title="小熊的全栈之路" type="application/atom+xml" />
+  <link rel="alternate" href="/atom.xml" title="CSZL" type="application/atom+xml" />
 
 
 
@@ -92,7 +92,7 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="Js中的正则">
 <meta property="og:url" content="http://xzp.com/2021/04/17/jsp/index.html">
-<meta property="og:site_name" content="小熊的全栈之路">
+<meta property="og:site_name" content="CSZL">
 <meta property="og:description" content="正则表达式概述什么是正则表达式 正则表达式（ Regular Expression ）是用于匹配字符串中字符组合的模式。在 JavaScript中，正则表达式也是对象。 正则表通常被用来检索、替换那些符合某个模式（规则）的文本，例如验证表单：用户名表单只能输入英文字母、数字或者下划线， 昵称输入框中可以输入中文(匹配)。此外，正则表达式还常用于过滤掉页面内容中的一些敏感词(替换)，或从字符串中获取">
 <meta property="og:locale">
 <meta property="og:image" content="https://img-blog.csdnimg.cn/20210410102652219.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0NydExpZmU=,size_16,color_FFFFFF,t_70#pic_center">
@@ -112,7 +112,7 @@
     root: '',
     scheme: 'Gemini',
     version: '5.1.4',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":true,"onmobile":false},
     fancybox: true,
     tabs: true,
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
@@ -138,7 +138,7 @@
 
 
 
-  <title>Js中的正则 | 小熊的全栈之路</title>
+  <title>Js中的正则 | CSZL</title>
   
 
 
@@ -169,7 +169,7 @@
     <div class="custom-logo-site-title">
       <a href="/"  class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">小熊的全栈之路</span>
+        <span class="site-title">CSZL</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
@@ -329,7 +329,7 @@
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="小熊的全栈之路">
+      <meta itemprop="name" content="CSZL">
     </span>
 
     
@@ -705,10 +705,22 @@
                         <i class="fa fa-fw fa-crosshairs"></i>CSDN</a>
                   </span>
                 
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/XZenPen/XZenPen.github.io.git" target="_blank" title="GitHub">
+                      
+                        <i class="fa fa-fw fa-github"></i>GitHub</a>
+                  </span>
+                
             </div>
           
           
           
+          
+            <div class="cc-license motion-element" itemprop="license">
+              <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="cc-opacity" target="_blank">
+                <img src="/images/cc-by-nc-sa.svg" alt="Creative Commons" />
+              </a>
+            </div>
           
 
           
@@ -873,6 +885,8 @@ show_date_time();
     
       <div class="back-to-top">
         <i class="fa fa-arrow-up"></i>
+        
+          <span id="scrollpercent"><span>0</span>%</span>
         
       </div>
     
